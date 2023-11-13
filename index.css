@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(25, 20, 40);
+	font-family: Arial, "Jost";
+}
+
+
+#clockContainer {
+	position: relative;
+	margin: auto;
+	height: 40vw;
+	/*to make the height and width responsive*/
+	width: 40vw;
+	background: url("index.png") no-repeat;
+	/*setting our background image*/
+	background-size: 100%;
+}
+
+#hour,
+#minute,
+#second {
+	position: absolute;
+	background: rgb(240, 172, 0);
+	border-radius: 7px;
+	transform-origin: bottom;
+}
+
+#hour {
+	width: 1.8%;
+	height: 25%;
+	top: 25%;
+	left: 48.85%;
+	opacity: 0.8;
+}
+
+#minute {
+	width: 1.6%;
+	height: 30%;
+	top: 19%;
+	left: 48.9%;
+	opacity: 0.8;
+}
+
+#second {
+	width: 1%;
+	height: 40%;
+	top: 9%;
+	left: 49.25%;
+	opacity: 0.8;
+}
+
+#q {
+    color: rgb(171, 114, 0)/*#A70D2A*/;
+    font-family: 'Jost';
+    text-align: center;
+
+    cursor: pointer;
+    font-size: 60px;
+}
+
+#s {
+    color: rgb(2, 79, 90)/*#A70D2A*/;
+    font-family: 'Jost';
+
+    cursor: pointer;
+    font-size: 60px;
+}
+
+#t {
+    color: rgb(4, 122, 4)/*#A70D2A*/;
+    font-family: 'Jost';
+
+
+    cursor: pointer;
+    font-size: 60px;
+}
+
+#v {
+    color: rgba(175, 0, 0, 0.752)/*#A70D2A*/;
+    font-family: 'Jost';
+    text-align: left; 
+    padding: 0;
+    left: 0;
+    cursor: pointer;
+    font-size: 60px;
+}

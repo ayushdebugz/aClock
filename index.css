@@ -1,8 +1,13 @@
 body {
-    background-color: rgb(25, 20, 40);
+    background-color: rgba(67, 9, 240, 0.6);
 	font-family: Arial, "Jost";
+	font-size: larger;
+	display: flexbox;
 }
 
+.kl {
+	background-color: rgba(81, 78, 89, 0.6);
+}
 
 #clockContainer {
 	position: relative;
@@ -19,7 +24,7 @@ body {
 #minute,
 #second {
 	position: absolute;
-	background: rgb(240, 172, 0);
+	background: rgb(5, 30, 50);
 	border-radius: 7px;
 	transform-origin: bottom;
 }
@@ -45,6 +50,7 @@ body {
 	height: 40%;
 	top: 9%;
 	left: 49.25%;
+	background-color: rgb(250, 254, 4);
 	opacity: 0.8;
 }
 
@@ -83,3 +89,4 @@ body {
     cursor: pointer;
     font-size: 60px;
 }
+
